@@ -1,5 +1,4 @@
 absl-py==0.7.0
-alembic==0.9.3.dev0
 appdirs==1.4.3
 APScheduler==3.6.3
 apturl==0.5.2
