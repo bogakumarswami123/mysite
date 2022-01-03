@@ -22,7 +22,7 @@ class  GetArticlesAPIView(GenericAPIView):
         """
         Function for getting the requests for particular status if valid.
         """
-        url = "https://newsapi.org/v2/everything?q={0}&from={1}&sortBy=publishedAt&apiKey=56d5d35b8b0244f8a31599f7dde675f0"
+        url = "https://newsapi.org/v2/everything?q={0}&from={1}&sortBy=publishedAt&apiKey=880b677eef3e45029b2893df000373db"
         url = url.format(request.data.get("search"), request.data.get("date"))
         print(url)
         try:
